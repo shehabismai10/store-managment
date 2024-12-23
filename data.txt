@@ -1,0 +1,9 @@
+1. select distinct order_id from orderdetials where product_code like 'S18%' and price>100;
+
+
+
+2.select paymenents_id from payments where day(payment_date) in(5,6);
+
+
+
+3.select customer_id from customers where country='USA' and phone_number like '%555%' order by credit_limit desc limit 5
